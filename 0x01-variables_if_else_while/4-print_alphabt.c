@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Description: Prints the lowercase alphabet except letters q and e
-* using the putchar function.
+* main - main function
 *
 * Return: Always 0 (Success)
 */
