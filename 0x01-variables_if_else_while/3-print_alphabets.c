@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 * main - Entry point
 *
@@ -23,3 +24,4 @@ uppercase++;
 putchar('\n');
 return (0);
 }
+
