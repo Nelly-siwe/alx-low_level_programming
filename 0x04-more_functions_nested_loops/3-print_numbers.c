@@ -1,20 +1,14 @@
 #include "main.h"
 /**
-* print_number - Prints a number
-* @n: The number to print
-*
+*print_numbers - print all the numbers
+*Return: returns nothing
 */
-void print_number(int n)
+void print_numbers(void)
 {
-	int num = n;
-if (n < 0)
+int number = 48;
+for (number = 48; number < 58; number++)
 {
-_putchar('-');
-num = -num;
+_putchar(number);
 }
-if (num > 9)
-{
-print_number(num / 10);
-}
-_putchar(num % 10 + '0');
+_putchar('\n');
 }
